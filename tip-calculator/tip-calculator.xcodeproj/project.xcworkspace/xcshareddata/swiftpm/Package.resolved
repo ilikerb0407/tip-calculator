@@ -1,0 +1,42 @@
+{
+  "originHash" : "59c9bbcec38f3fbdacb2e50f5630e71924525534c09e599fdd2bfb5fc53bd902",
+  "pins" : [
+    {
+      "identity" : "combinecocoa",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CombineCommunity/CombineCocoa",
+      "state" : {
+        "revision" : "7300c75ff9e072aa7fd0fccefcc88f74aae9bf56",
+        "version" : "0.4.1"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
+      }
+    },
+    {
+      "identity" : "swift-snapshot-testing",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pointfreeco/swift-snapshot-testing",
+      "state" : {
+        "revision" : "d2341adf332dc7341b4acad8761dff65e905d63c",
+        "version" : "1.16.2"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-syntax",
+      "state" : {
+        "revision" : "4c6cc0a3b9e8f14b3ae2307c5ccae4de6167ac2c",
+        "version" : "600.0.0-prerelease-2024-06-12"
+      }
+    }
+  ],
+  "version" : 3
+}
