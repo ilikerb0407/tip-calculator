@@ -13,9 +13,9 @@
 		3BB28E832C36D6A50073E5FF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3BB28E822C36D6A50073E5FF /* Base */; };
 		3BB28E852C36D6A60073E5FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB28E842C36D6A60073E5FF /* Assets.xcassets */; };
 		3BB28E882C36D6A60073E5FF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3BB28E872C36D6A60073E5FF /* Base */; };
-		3BB28E932C36D6A60073E5FF /* tip_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB28E922C36D6A60073E5FF /* tip_calculatorTests.swift */; };
-		3BB28E9D2C36D6A60073E5FF /* tip_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB28E9C2C36D6A60073E5FF /* tip_calculatorUITests.swift */; };
-		3BB28E9F2C36D6A60073E5FF /* tip_calculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB28E9E2C36D6A60073E5FF /* tip_calculatorUITestsLaunchTests.swift */; };
+		3BB28E932C36D6A60073E5FF /* Tip_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB28E922C36D6A60073E5FF /* Tip_calculatorTests.swift */; };
+		3BB28E9D2C36D6A60073E5FF /* Tip_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB28E9C2C36D6A60073E5FF /* Tip_calculatorUITests.swift */; };
+		3BB28E9F2C36D6A60073E5FF /* Tip_calculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB28E9E2C36D6A60073E5FF /* Tip_calculatorUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +45,10 @@
 		3BB28E872C36D6A60073E5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BB28E892C36D6A60073E5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BB28E8E2C36D6A60073E5FF /* tip-calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tip-calculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BB28E922C36D6A60073E5FF /* tip_calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip_calculatorTests.swift; sourceTree = "<group>"; };
+		3BB28E922C36D6A60073E5FF /* Tip_calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_calculatorTests.swift; sourceTree = "<group>"; };
 		3BB28E982C36D6A60073E5FF /* tip-calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tip-calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BB28E9C2C36D6A60073E5FF /* tip_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip_calculatorUITests.swift; sourceTree = "<group>"; };
-		3BB28E9E2C36D6A60073E5FF /* tip_calculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip_calculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3BB28E9C2C36D6A60073E5FF /* Tip_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_calculatorUITests.swift; sourceTree = "<group>"; };
+		3BB28E9E2C36D6A60073E5FF /* Tip_calculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_calculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +113,7 @@
 		3BB28E912C36D6A60073E5FF /* tip-calculatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				3BB28E922C36D6A60073E5FF /* tip_calculatorTests.swift */,
+				3BB28E922C36D6A60073E5FF /* Tip_calculatorTests.swift */,
 			);
 			path = "tip-calculatorTests";
 			sourceTree = "<group>";
@@ -121,8 +121,8 @@
 		3BB28E9B2C36D6A60073E5FF /* tip-calculatorUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3BB28E9C2C36D6A60073E5FF /* tip_calculatorUITests.swift */,
-				3BB28E9E2C36D6A60073E5FF /* tip_calculatorUITestsLaunchTests.swift */,
+				3BB28E9C2C36D6A60073E5FF /* Tip_calculatorUITests.swift */,
+				3BB28E9E2C36D6A60073E5FF /* Tip_calculatorUITestsLaunchTests.swift */,
 			);
 			path = "tip-calculatorUITests";
 			sourceTree = "<group>";
@@ -268,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BB28E932C36D6A60073E5FF /* tip_calculatorTests.swift in Sources */,
+				3BB28E932C36D6A60073E5FF /* Tip_calculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BB28E9F2C36D6A60073E5FF /* tip_calculatorUITestsLaunchTests.swift in Sources */,
-				3BB28E9D2C36D6A60073E5FF /* tip_calculatorUITests.swift in Sources */,
+				3BB28E9F2C36D6A60073E5FF /* Tip_calculatorUITestsLaunchTests.swift in Sources */,
+				3BB28E9D2C36D6A60073E5FF /* Tip_calculatorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
