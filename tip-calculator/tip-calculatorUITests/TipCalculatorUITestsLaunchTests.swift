@@ -5,7 +5,7 @@
 
 import XCTest
 
-final class Tip_calculatorUITestsLaunchTests: XCTestCase {
+final class TipCalculatorUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
