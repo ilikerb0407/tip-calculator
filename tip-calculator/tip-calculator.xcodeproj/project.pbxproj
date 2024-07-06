@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BACF54E2C3912CE000CC41A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF54D2C3912CE000CC41A /* UIView+Extension.swift */; };
 		3BB28E7C2C36D6A50073E5FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB28E7B2C36D6A50073E5FF /* AppDelegate.swift */; };
 		3BB28E7E2C36D6A50073E5FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB28E7D2C36D6A50073E5FF /* SceneDelegate.swift */; };
 		3BB28E802C36D6A50073E5FF /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB28E7F2C36D6A50073E5FF /* CalculatorVC.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BACF54D2C3912CE000CC41A /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		3BB28E782C36D6A50073E5FF /* tip-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB28E7B2C36D6A50073E5FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BB28E7D2C36D6A50073E5FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				3BB28ECA2C36ECC10073E5FF /* UIColor+Extension.swift */,
+				3BACF54D2C3912CE000CC41A /* UIView+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BB28E802C36D6A50073E5FF /* CalculatorVC.swift in Sources */,
+				3BACF54E2C3912CE000CC41A /* UIView+Extension.swift in Sources */,
 				3BB28EBB2C36E1950073E5FF /* LogoView.swift in Sources */,
 				3BB28EBF2C36E3270073E5FF /* BillInputView.swift in Sources */,
 				3BB28ECB2C36ECC10073E5FF /* UIColor+Extension.swift in Sources */,
