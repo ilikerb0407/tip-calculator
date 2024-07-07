@@ -1,12 +1,12 @@
-/// <#Brief Description#> 
+/// <#Brief Description#>
 ///
 /// Created by TWINB00591630 on 2024/7/4.
 /// Copyright © 2024 Cathay United Bank. All rights reserved.
 
 import UIKit
 
-internal extension UIColor {
-    convenience init(hexString: String) {
+extension UIColor {
+    internal convenience init(hexString: String) {
         let hex = hexString.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
         var int = UInt64()
         Scanner(string: hex).scanHexInt64(&int)

@@ -1,4 +1,4 @@
-/// <#Brief Description#> 
+/// <#Brief Description#>
 ///
 /// Created by TWINB00591630 on 2024/7/4.
 /// Copyright © 2024 Cathay United Bank. All rights reserved.
@@ -6,20 +6,17 @@
 import UIKit
 
 class ResultView: UIView {
-
-    private let headerLabel: UILabel = {
-        LabelFactory.build(text: "Total p/person",
-                           font: ThemeFont.demibold(ofSize: 18))
-    }()
+    private let headerLabel: UILabel = LabelFactory.build(text: "Total p/person",
+                                                          font: ThemeFont.demibold(ofSize: 18))
 
     private let amountPerPersonLabel: UILabel = {
         let label = UILabel()
         label.textAlignment = .center
         let text = NSMutableAttributedString(string: "$0", attributes: [
-            .font: ThemeFont.bold(ofSize: 48)
+            .font: ThemeFont.bold(ofSize: 48),
         ])
         text.addAttributes([
-            .font: ThemeFont.bold(ofSize: 24)
+            .font: ThemeFont.bold(ofSize: 24),
         ], range: NSRange(location: 0, length: 1))
         label.attributedText = text
         return label
@@ -37,7 +34,7 @@ class ResultView: UIView {
             amountPerPersonLabel,
             horizontalLineView,
             buildSpacerView(height: 0),
-            hStackView
+            hStackView,
         ])
         stackView.axis = .vertical
         stackView.spacing = 8
@@ -46,26 +43,28 @@ class ResultView: UIView {
     }()
 
     private let totalBillView: AmountView = {
-      let view = AmountView(
-        title: "Total bill",
-        textAlignment: .left,
-        amountLabelIdentifier: ScreenIdentifier.ResultView.totalBillValueLabel.rawValue)
-      return view
+        let view = AmountView(
+            title: "Total bill",
+            textAlignment: .left,
+            amountLabelIdentifier: ScreenIdentifier.ResultView.totalBillValueLabel.rawValue
+        )
+        return view
     }()
 
     private let totalTipView: AmountView = {
-      let view = AmountView(
-        title: "Total tip",
-        textAlignment: .right,
-        amountLabelIdentifier: ScreenIdentifier.ResultView.totalTipValueLabel.rawValue)
-      return view
+        let view = AmountView(
+            title: "Total tip",
+            textAlignment: .right,
+            amountLabelIdentifier: ScreenIdentifier.ResultView.totalTipValueLabel.rawValue
+        )
+        return view
     }()
 
     private lazy var hStackView: UIStackView = {
         let stackView = UIStackView(arrangedSubviews: [
             totalBillView,
             UIView(),
-            totalTipView
+            totalTipView,
         ])
         stackView.axis = .horizontal
         stackView.distribution = .fillEqually
@@ -77,7 +76,8 @@ class ResultView: UIView {
         layout()
     }
 
-    required init?(coder: NSCoder) {
+    @available(*, unavailable)
+    required init?(coder _: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
@@ -106,5 +106,4 @@ class ResultView: UIView {
         view.heightAnchor.constraint(equalToConstant: height).isActive = true
         return view
     }
-
 }

@@ -1,13 +1,12 @@
-/// <#Brief Description#> 
+/// <#Brief Description#>
 ///
 /// Created by TWINB00591630 on 2024/7/4.
 /// Copyright © 2024 Cathay United Bank. All rights reserved.
 
-import UIKit
 import SnapKit
+import UIKit
 
 class CalculatorVC: UIViewController {
-
     private let logoView = LogoView()
     private let resultView = ResultView()
     private let billInputView = BillInputView()
@@ -21,19 +20,17 @@ class CalculatorVC: UIViewController {
             billInputView,
             tipInputView,
             splitInputView,
-            UIView() // 沒加會有破圖
+            UIView(), // 沒加會有破圖
         ])
         stackView.axis = .vertical
         stackView.spacing = 36
         return stackView
     }()
 
-
     override func viewDidLoad() {
         super.viewDidLoad()
         layout()
     }
-
 
     private func layout() {
         view.backgroundColor = ThemeColor.bg
@@ -59,14 +56,11 @@ class CalculatorVC: UIViewController {
         }
 
         tipInputView.snp.makeConstraints { make in
-            make.height.equalTo(56+16+56)
+            make.height.equalTo(56 + 16 + 56)
         }
 
         splitInputView.snp.makeConstraints { make in
             make.height.equalTo(56)
         }
     }
-
-
 }
-
