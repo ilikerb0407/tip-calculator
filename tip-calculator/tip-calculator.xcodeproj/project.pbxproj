@@ -13,6 +13,8 @@
 		3BACF5552C391752000CC41A /* ScreenIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF5542C391752000CC41A /* ScreenIdentifier.swift */; };
 		3BACF5572C391A70000CC41A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF5562C391A70000CC41A /* String+Extension.swift */; };
 		3BACF5592C391A90000CC41A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF5582C391A90000CC41A /* HeaderView.swift */; };
+		3BACF55B2C3A8771000CC41A /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF55A2C3A8771000CC41A /* Tip.swift */; };
+		3BACF55D2C3A87B1000CC41A /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF55C2C3A87B1000CC41A /* UIResponder+Extension.swift */; };
 		3BB28E7C2C36D6A50073E5FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB28E7B2C36D6A50073E5FF /* AppDelegate.swift */; };
 		3BB28E7E2C36D6A50073E5FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB28E7D2C36D6A50073E5FF /* SceneDelegate.swift */; };
 		3BB28E802C36D6A50073E5FF /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB28E7F2C36D6A50073E5FF /* CalculatorVC.swift */; };
@@ -61,6 +63,8 @@
 		3BACF5542C391752000CC41A /* ScreenIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenIdentifier.swift; sourceTree = "<group>"; };
 		3BACF5562C391A70000CC41A /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		3BACF5582C391A90000CC41A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		3BACF55A2C3A8771000CC41A /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		3BACF55C2C3A87B1000CC41A /* UIResponder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extension.swift"; sourceTree = "<group>"; };
 		3BB28E782C36D6A50073E5FF /* tip-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB28E7B2C36D6A50073E5FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BB28E7D2C36D6A50073E5FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				3BACF5542C391752000CC41A /* ScreenIdentifier.swift */,
+				3BACF55A2C3A8771000CC41A /* Tip.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 				3BACF54D2C3912CE000CC41A /* UIView+Extension.swift */,
 				3BACF5512C3916A4000CC41A /* Double+Extension.swift */,
 				3BACF5562C391A70000CC41A /* String+Extension.swift */,
+				3BACF55C2C3A87B1000CC41A /* UIResponder+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -375,6 +381,7 @@
 			files = (
 				3BACF5502C3915D1000CC41A /* AmountView.swift in Sources */,
 				3BACF5592C391A90000CC41A /* HeaderView.swift in Sources */,
+				3BACF55D2C3A87B1000CC41A /* UIResponder+Extension.swift in Sources */,
 				3BB28E802C36D6A50073E5FF /* CalculatorVC.swift in Sources */,
 				3BACF54E2C3912CE000CC41A /* UIView+Extension.swift in Sources */,
 				3BB28EBB2C36E1950073E5FF /* LogoView.swift in Sources */,
@@ -384,6 +391,7 @@
 				3BB28EC62C36EC7A0073E5FF /* ThemeFont.swift in Sources */,
 				3BACF5572C391A70000CC41A /* String+Extension.swift in Sources */,
 				3BB28EBD2C36E2CE0073E5FF /* ResultView.swift in Sources */,
+				3BACF55B2C3A8771000CC41A /* Tip.swift in Sources */,
 				3BACF5522C3916A4000CC41A /* Double+Extension.swift in Sources */,
 				3BB28E7C2C36D6A50073E5FF /* AppDelegate.swift in Sources */,
 				3BB28E7E2C36D6A50073E5FF /* SceneDelegate.swift in Sources */,
