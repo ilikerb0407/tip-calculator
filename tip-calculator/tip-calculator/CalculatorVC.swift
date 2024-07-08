@@ -41,6 +41,7 @@ class CalculatorVC: UIViewController {
     }.eraseToAnyPublisher()
   }()
 
+    // Send tap guesture publisher to VM
   private lazy var logoViewTapPublisher: AnyPublisher<Void, Never> = {
     let tapGesture = UITapGestureRecognizer(target: self, action: nil)
     tapGesture.numberOfTapsRequired = 2
@@ -84,7 +85,7 @@ class CalculatorVC: UIViewController {
           self.logoView.transform = .init(scaleX: 1.5, y: 1.5)
         } completion: { _ in
           UIView.animate(withDuration: 0.1) {
-            self.logoView.transform = .identity
+              self.logoView.transform = .identity
           }
         }
     }.store(in: &cancellables)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23915C462C3C51F400AF4B01 /* click.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 23915C452C3C51F100AF4B01 /* click.m4a */; };
 		3BACF54E2C3912CE000CC41A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF54D2C3912CE000CC41A /* UIView+Extension.swift */; };
 		3BACF5502C3915D1000CC41A /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF54F2C3915D1000CC41A /* AmountView.swift */; };
 		3BACF5522C3916A4000CC41A /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF5512C3916A4000CC41A /* Double+Extension.swift */; };
@@ -61,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23915C452C3C51F100AF4B01 /* click.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.m4a; sourceTree = "<group>"; };
 		3BACF54D2C3912CE000CC41A /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		3BACF54F2C3915D1000CC41A /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 		3BACF5512C3916A4000CC41A /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		3BACF5682C3BBFCD000CC41A /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				23915C452C3C51F100AF4B01 /* click.m4a */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23915C462C3C51F400AF4B01 /* click.m4a in Resources */,
 				3BB28E852C36D6A60073E5FF /* Assets.xcassets in Resources */,
 				3BB28E882C36D6A60073E5FF /* Base in Resources */,
 			);
