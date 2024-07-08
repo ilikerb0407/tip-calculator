@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		23915C462C3C51F400AF4B01 /* click.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 23915C452C3C51F100AF4B01 /* click.m4a */; };
+		23915C492C3C5D5900AF4B01 /* CalculatorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF5612C3A8C6E000CC41A /* CalculatorVM.swift */; };
 		3BACF54E2C3912CE000CC41A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF54D2C3912CE000CC41A /* UIView+Extension.swift */; };
 		3BACF5502C3915D1000CC41A /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF54F2C3915D1000CC41A /* AmountView.swift */; };
 		3BACF5522C3916A4000CC41A /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF5512C3916A4000CC41A /* Double+Extension.swift */; };
@@ -17,7 +18,6 @@
 		3BACF55B2C3A8771000CC41A /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF55A2C3A8771000CC41A /* Tip.swift */; };
 		3BACF55D2C3A87B1000CC41A /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF55C2C3A87B1000CC41A /* UIResponder+Extension.swift */; };
 		3BACF55F2C3A8A51000CC41A /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF55E2C3A8A51000CC41A /* Int+Extension.swift */; };
-		3BACF5622C3A8C6E000CC41A /* CalculatorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF5612C3A8C6E000CC41A /* CalculatorVM.swift */; };
 		3BACF5642C3AF892000CC41A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF5632C3AF892000CC41A /* Result.swift */; };
 		3BACF5672C3AF975000CC41A /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF5662C3AF975000CC41A /* AudioPlayerService.swift */; };
 		3BB28E7C2C36D6A50073E5FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB28E7B2C36D6A50073E5FF /* AppDelegate.swift */; };
@@ -421,7 +421,6 @@
 			files = (
 				3BACF5502C3915D1000CC41A /* AmountView.swift in Sources */,
 				3BACF5592C391A90000CC41A /* HeaderView.swift in Sources */,
-				3BACF5622C3A8C6E000CC41A /* CalculatorVM.swift in Sources */,
 				3BACF55D2C3A87B1000CC41A /* UIResponder+Extension.swift in Sources */,
 				3BACF55F2C3A8A51000CC41A /* Int+Extension.swift in Sources */,
 				3BB28E802C36D6A50073E5FF /* CalculatorVC.swift in Sources */,
@@ -430,6 +429,7 @@
 				3BACF5552C391752000CC41A /* ScreenIdentifier.swift in Sources */,
 				3BB28EBF2C36E3270073E5FF /* BillInputView.swift in Sources */,
 				3BB28ECB2C36ECC10073E5FF /* UIColor+Extension.swift in Sources */,
+				23915C492C3C5D5900AF4B01 /* CalculatorVM.swift in Sources */,
 				3BACF5672C3AF975000CC41A /* AudioPlayerService.swift in Sources */,
 				3BB28EC62C36EC7A0073E5FF /* ThemeFont.swift in Sources */,
 				3BACF5572C391A70000CC41A /* String+Extension.swift in Sources */,
