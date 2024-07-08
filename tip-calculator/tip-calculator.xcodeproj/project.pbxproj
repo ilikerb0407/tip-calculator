@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		23915C462C3C51F400AF4B01 /* click.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 23915C452C3C51F100AF4B01 /* click.m4a */; };
 		23915C492C3C5D5900AF4B01 /* CalculatorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF5612C3A8C6E000CC41A /* CalculatorVM.swift */; };
+		23915C4B2C3C614700AF4B01 /* TipCalculatorSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23915C4A2C3C614700AF4B01 /* TipCalculatorSnapshotTests.swift */; };
+		23915C4C2C3C628400AF4B01 /* ScreenIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF5542C391752000CC41A /* ScreenIdentifier.swift */; };
 		3BACF54E2C3912CE000CC41A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF54D2C3912CE000CC41A /* UIView+Extension.swift */; };
 		3BACF5502C3915D1000CC41A /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF54F2C3915D1000CC41A /* AmountView.swift */; };
 		3BACF5522C3916A4000CC41A /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF5512C3916A4000CC41A /* Double+Extension.swift */; };
@@ -27,7 +29,7 @@
 		3BB28E882C36D6A60073E5FF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3BB28E872C36D6A60073E5FF /* Base */; };
 		3BB28E932C36D6A60073E5FF /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB28E922C36D6A60073E5FF /* TipCalculatorTests.swift */; };
 		3BB28E9D2C36D6A60073E5FF /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB28E9C2C36D6A60073E5FF /* TipCalculatorUITests.swift */; };
-		3BB28E9F2C36D6A60073E5FF /* TipCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB28E9E2C36D6A60073E5FF /* TipCalculatorUITestsLaunchTests.swift */; };
+		3BB28E9F2C36D6A60073E5FF /* CalculatorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB28E9E2C36D6A60073E5FF /* CalculatorScreen.swift */; };
 		3BB28EAD2C36DBBB0073E5FF /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 3BB28EAC2C36DBBB0073E5FF /* CombineCocoa */; };
 		3BB28EB02C36DBDB0073E5FF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3BB28EAF2C36DBDB0073E5FF /* SnapKit */; };
 		3BB28EB32C36DC070073E5FF /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 3BB28EB22C36DC070073E5FF /* CombineCocoa */; };
@@ -63,6 +65,7 @@
 
 /* Begin PBXFileReference section */
 		23915C452C3C51F100AF4B01 /* click.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.m4a; sourceTree = "<group>"; };
+		23915C4A2C3C614700AF4B01 /* TipCalculatorSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorSnapshotTests.swift; sourceTree = "<group>"; };
 		3BACF54D2C3912CE000CC41A /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		3BACF54F2C3915D1000CC41A /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 		3BACF5512C3916A4000CC41A /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
@@ -86,7 +89,7 @@
 		3BB28E922C36D6A60073E5FF /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
 		3BB28E982C36D6A60073E5FF /* tip-calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tip-calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB28E9C2C36D6A60073E5FF /* TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITests.swift; sourceTree = "<group>"; };
-		3BB28E9E2C36D6A60073E5FF /* TipCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3BB28E9E2C36D6A60073E5FF /* CalculatorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorScreen.swift; sourceTree = "<group>"; };
 		3BB28EBA2C36E1950073E5FF /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		3BB28EBC2C36E2CE0073E5FF /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		3BB28EBE2C36E3270073E5FF /* BillInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillInputView.swift; sourceTree = "<group>"; };
@@ -208,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				3BB28E922C36D6A60073E5FF /* TipCalculatorTests.swift */,
+				23915C4A2C3C614700AF4B01 /* TipCalculatorSnapshotTests.swift */,
 			);
 			path = "tip-calculatorTests";
 			sourceTree = "<group>";
@@ -216,7 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				3BB28E9C2C36D6A60073E5FF /* TipCalculatorUITests.swift */,
-				3BB28E9E2C36D6A60073E5FF /* TipCalculatorUITestsLaunchTests.swift */,
+				3BB28E9E2C36D6A60073E5FF /* CalculatorScreen.swift */,
 			);
 			path = "tip-calculatorUITests";
 			sourceTree = "<group>";
@@ -450,6 +454,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23915C4B2C3C614700AF4B01 /* TipCalculatorSnapshotTests.swift in Sources */,
 				3BB28E932C36D6A60073E5FF /* TipCalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,7 +463,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BB28E9F2C36D6A60073E5FF /* TipCalculatorUITestsLaunchTests.swift in Sources */,
+				3BB28E9F2C36D6A60073E5FF /* CalculatorScreen.swift in Sources */,
+				23915C4C2C3C628400AF4B01 /* ScreenIdentifier.swift in Sources */,
 				3BB28E9D2C36D6A60073E5FF /* TipCalculatorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
