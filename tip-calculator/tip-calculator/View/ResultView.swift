@@ -81,6 +81,19 @@ class ResultView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
 
+    func configure(result: Result) {
+      let text = NSMutableAttributedString(
+        string: result.amountPerPerson.currencyFormatted,
+        attributes: [.font: ThemeFont.bold(ofSize: 48)])
+      text.addAttributes([
+        .font: ThemeFont.bold(ofSize: 24)
+      ], range: NSMakeRange(0, 1))
+      amountPerPersonLabel.attributedText = text
+
+      totalBillView.configure(amount: result.totalBill)
+      totalTipView.configure(amount: result.totalTip)
+    }
+
     private func layout() {
         backgroundColor = .white
         addSubview(vStackView)
