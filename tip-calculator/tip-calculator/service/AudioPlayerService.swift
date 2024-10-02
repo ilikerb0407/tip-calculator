@@ -10,7 +10,6 @@ protocol AudioPlayerService {
     func playSound()
 }
 
-
 final class DefaultAudioPlayer: AudioPlayerService {
 
   private var player: AVAudioPlayer?

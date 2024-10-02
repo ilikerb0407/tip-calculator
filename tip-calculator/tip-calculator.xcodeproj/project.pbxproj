@@ -11,6 +11,8 @@
 		23915C492C3C5D5900AF4B01 /* CalculatorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF5612C3A8C6E000CC41A /* CalculatorVM.swift */; };
 		23915C4B2C3C614700AF4B01 /* TipCalculatorSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23915C4A2C3C614700AF4B01 /* TipCalculatorSnapshotTests.swift */; };
 		23915C4C2C3C628400AF4B01 /* ScreenIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF5542C391752000CC41A /* ScreenIdentifier.swift */; };
+		23EF17652CADA9D80003B4DE /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 23EF17642CADA9D80003B4DE /* CryptoSwift */; };
+		23EF17672CADAA710003B4DE /* UICollectionReusableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EF17662CADAA710003B4DE /* UICollectionReusableView+Extension.swift */; };
 		3BACF54E2C3912CE000CC41A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF54D2C3912CE000CC41A /* UIView+Extension.swift */; };
 		3BACF5502C3915D1000CC41A /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF54F2C3915D1000CC41A /* AmountView.swift */; };
 		3BACF5522C3916A4000CC41A /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BACF5512C3916A4000CC41A /* Double+Extension.swift */; };
@@ -66,6 +68,7 @@
 /* Begin PBXFileReference section */
 		23915C452C3C51F100AF4B01 /* click.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.m4a; sourceTree = "<group>"; };
 		23915C4A2C3C614700AF4B01 /* TipCalculatorSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorSnapshotTests.swift; sourceTree = "<group>"; };
+		23EF17662CADAA710003B4DE /* UICollectionReusableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionReusableView+Extension.swift"; sourceTree = "<group>"; };
 		3BACF54D2C3912CE000CC41A /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		3BACF54F2C3915D1000CC41A /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 		3BACF5512C3916A4000CC41A /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
@@ -108,6 +111,7 @@
 			files = (
 				3BB28EAD2C36DBBB0073E5FF /* CombineCocoa in Frameworks */,
 				3BB28EB02C36DBDB0073E5FF /* SnapKit in Frameworks */,
+				23EF17652CADA9D80003B4DE /* CryptoSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +268,7 @@
 				3BACF5562C391A70000CC41A /* String+Extension.swift */,
 				3BACF55C2C3A87B1000CC41A /* UIResponder+Extension.swift */,
 				3BACF55E2C3A8A51000CC41A /* Int+Extension.swift */,
+				23EF17662CADAA710003B4DE /* UICollectionReusableView+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -295,6 +300,7 @@
 			packageProductDependencies = (
 				3BB28EAC2C36DBBB0073E5FF /* CombineCocoa */,
 				3BB28EAF2C36DBDB0073E5FF /* SnapKit */,
+				23EF17642CADA9D80003B4DE /* CryptoSwift */,
 			);
 			productName = "tip-calculator";
 			productReference = 3BB28E782C36D6A50073E5FF /* tip-calculator.app */;
@@ -379,6 +385,7 @@
 				3BB28EAB2C36DBBB0073E5FF /* XCRemoteSwiftPackageReference "CombineCocoa" */,
 				3BB28EAE2C36DBDB0073E5FF /* XCRemoteSwiftPackageReference "SnapKit" */,
 				3BB28EB42C36DC770073E5FF /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+				23EF17632CADA9D80003B4DE /* XCRemoteSwiftPackageReference "CryptoSwift" */,
 			);
 			productRefGroup = 3BB28E792C36D6A50073E5FF /* Products */;
 			projectDirPath = "";
@@ -430,6 +437,7 @@
 				3BB28E802C36D6A50073E5FF /* CalculatorVC.swift in Sources */,
 				3BACF54E2C3912CE000CC41A /* UIView+Extension.swift in Sources */,
 				3BB28EBB2C36E1950073E5FF /* LogoView.swift in Sources */,
+				23EF17672CADAA710003B4DE /* UICollectionReusableView+Extension.swift in Sources */,
 				3BACF5552C391752000CC41A /* ScreenIdentifier.swift in Sources */,
 				3BB28EBF2C36E3270073E5FF /* BillInputView.swift in Sources */,
 				3BB28ECB2C36ECC10073E5FF /* UIColor+Extension.swift in Sources */,
@@ -787,6 +795,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		23EF17632CADA9D80003B4DE /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.3;
+			};
+		};
 		3BB28EAB2C36DBBB0073E5FF /* XCRemoteSwiftPackageReference "CombineCocoa" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/CombineCommunity/CombineCocoa";
@@ -814,6 +830,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		23EF17642CADA9D80003B4DE /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23EF17632CADA9D80003B4DE /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
 		3BB28EAC2C36DBBB0073E5FF /* CombineCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3BB28EAB2C36DBBB0073E5FF /* XCRemoteSwiftPackageReference "CombineCocoa" */;
