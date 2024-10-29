@@ -7,6 +7,7 @@ import Foundation
 import Combine
 
 class CalculatorVM {
+    // 1
 
   struct Input {
     let billPublisher: AnyPublisher<Double, Never>
