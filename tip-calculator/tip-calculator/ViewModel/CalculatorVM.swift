@@ -8,6 +8,7 @@ import Combine
 
 class CalculatorVM {
     // 1
+    // 2
 
   struct Input {
     let billPublisher: AnyPublisher<Double, Never>
